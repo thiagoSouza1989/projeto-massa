@@ -1,0 +1,231 @@
+@media screen and (max-width: 768px){
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 2rem;
+    }
+
+    .logo img{
+        width: 200px;
+        margin-right: 2rem;
+    }
+
+    .sign-in{
+        /*display: flex;
+        flex-direction: column;
+        justify-content: space-between;*/
+        
+        padding-top: 20px;
+    }
+
+    .sign-in button{
+        border: none;
+    }
+
+    input[type='text'], 
+    input[type='email'], 
+    input[type='password']{
+        width: 150px;
+        padding: 0.5rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+
+    }
+
+    section{
+        padding: 3rem 0 4rem 0;
+    }
+    h1{
+        font-size: 2rem;
+        font-weight: normal;
+    }
+    .tittle{
+        margin-bottom: 2rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    .gray{
+        background-color: #f7f7f7;
+    }
+    .container{
+        max-width: 1000px;
+        margin: auto;
+        padding: 0 1rem;
+    }
+
+    .hero{
+        width: 100%;
+        margin: auto;
+    }
+
+    .intro p{
+        margin: 1rem 0;
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    .intro .cta{
+        margin: 2rem 0;
+    }
+    .button{
+        text-decoration: none;
+        padding: 10px 25px;
+        
+        border-radius: 5px;
+        margin-right: 5px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+    .button:hover{
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        height: 100px; 
+        width: 18%;
+        border-radius: 10px;
+        
+        color: white;
+        font-size: 1rem;
+    }
+
+    .members{
+        /*display: flex;
+        flex-direction: column;
+        justify-content: space-around;*/
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .member img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        
+    }
+    .member img:hover{
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3)
+    }
+}
+
+@media screen and (max-width: 900px){
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 2rem;
+    }
+
+    .logo img{
+        width: 200px;
+        margin-right: 2rem;
+    }
+
+    .sign-in{
+
+        padding-top: 20px;
+    }
+
+    .sign-in button{
+        border: none;
+    }
+
+    input[type='text'], 
+    input[type='email'], 
+    input[type='password']{
+        width: 150px;
+        padding: 0.5rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+
+    }
+
+    section{
+        padding: 3rem 0 4rem 0;
+    }
+    h1{
+        font-size: 2rem;
+        font-weight: normal;
+    }
+    .tittle{
+        margin-bottom: 2rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    .gray{
+        background-color: #f7f7f7;
+    }
+    .container{
+        max-width: 1000px;
+        margin: auto;
+        padding: 0 1rem;
+    }
+
+    .hero{
+        width: 100%;
+        margin: auto;
+    }
+
+    .intro p{
+        margin: 1rem 0;
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    .intro .cta{
+        margin: 2rem 0;
+    }
+    .button{
+        text-decoration: none;
+        padding: 10px 25px;
+        
+        border-radius: 5px;
+        margin-right: 5px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+    .button:hover{
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        height: 100px; 
+        width: 18%;
+        border-radius: 10px;
+        
+        color: white;
+        font-size: 1rem;
+    }
+
+    .members{
+        display: flex;
+        justify-content: space-between;
+    }
+    .member img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .member img:hover{
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3)
+    }
+}
